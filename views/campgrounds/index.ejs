@@ -1,0 +1,44 @@
+<%- include('../partials/header') %>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div id="campgrounds-header" class="carousel-item active text-light">
+			<div class="mx-auto jumbo-top" style="width: 400px;">
+				<h1 class="display-4 font-weight-normal"><i class="far fa-compass"></i>YelpCamp</h1>
+				<p class="lead font-weight-normal">Campsite liner notes for the outdoor community</p>
+				<a class="btn btn-outline-light" href="/campgrounds/new">Add new campground</a>
+			</div>
+    </div>
+		<div id="campgrounds-header-2" class="carousel-item text-light">
+			<div class="mx-auto jumbo-top" style="width: 400px;">
+				<h1 class="display-4 font-weight-normal">Leave No Trace</h1>
+				<p class="lead font-weight-normal">Respect and protect the places we love</p>
+				<a class="btn btn-outline-light" href="/leavenotrace">Learn More</a>
+			</div>
+		</div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	<div class='container'>
+		<div class='row'>
+			<% campgrounds.forEach(campground => { %>
+				<div class='col-lg-4 col-sm-6'>
+					<div class='card campground-cards shadow'>
+						<img src='<%= campground.image %>' class='card-img-top' alt='<%= campground.name %>'>
+						<div class='card-body'>
+							<h5 class='card-title'><%= campground.name %></h5>
+							<p class='card-text'><%=campground.description.substring(0, 80)%>...</p>
+							<a href='/campgrounds/<%= campground._id %>' class="btn btn-primary">Learn more</a>
+						</div>
+					</div>
+				</div>
+			<% }) %>
+		</div>
+	</div>
+<%- include('../partials/footer') %>

@@ -1,0 +1,54 @@
+<%- include('../partials/headerFormPage') %>
+<div class="container">
+	<div class="row form-page">
+		<div class="col-md-2 col-lg-3"></div>
+		<div class="col-md-8 col-lg-6">
+			<h2>YelpCamp signup</h2>
+			<form action="/register" method="POST" enctype="multipart/form-data">
+				<div class="form-group">
+					<label for="username">Email*</label>
+					<input class="form-control" required="required" type="email" name="email" placeholder="muir@hotmail.com">
+				</div>
+				<div class="form-group">
+					<label for="username">Username*</label>
+					<input class="form-control" required="required" type="text" name="username" placeholder="username">
+				</div>
+				<div class="form-group">
+					<label for="password">Password*</label>
+					<input class="form-control" required="required" type="password" name="password" placeholder="password">
+				</div>
+				<div class="form-group">
+					<label for="image">Profile pic*</label>
+					<input type="file" id="image" name="image" accept="image/*" required>
+				</div>
+				<div class="form-group">
+					<label for="firstName">First name</label>
+					<input class="form-control" type="text" name="firstName" placeholder="John">
+				</div>
+				<div class="form-group">
+					<label for="lastName">Last name</label>
+					<input class="form-control" type="text" name="lastName" placeholder="Muir">
+				</div>
+				<div class="form-group">
+					<label for="bio">Bio</label>
+					<textarea name="bio" class="form-control" type="text" maxlength="500" placeholder="Some call me John of the Mountains..."></textarea>
+				</div>
+				<div class="form-group">
+					<label for="hometown">Hometown</label>
+					<input class="form-control" type="text" name="hometown" placeholder="Los Angeles, CA">
+				</div>
+				<div class="form-group">
+					<label for="password">Admin code</label>
+					<input class="form-control" type="text" name="adminCode" placeholder="Optional">
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn btn-block btn-primary">Sign up</button>
+				</div>
+			</form>
+		<div class="col-md-2 col-lg-3"></div>
+		<div class="go-back">
+			<a href="/campgrounds">Go back</a>
+		</div>
+	</div>
+</div>
+<%- include('../partials/footer') %>

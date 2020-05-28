@@ -1,0 +1,33 @@
+<%- include('../partials/header') %>
+<div class="container">
+	<div class="row">
+		<div class="col-md-10 col-lg-9">
+			<h1>Yelpcamp Users</h1>
+		</div>
+		<div class="col-md-2 col-lg-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-10 col-lg-9">
+			<ul class="list-group">
+				<% users.forEach(function(user){ %>
+					<li class="list-group-item">
+						<div class="card">
+							<div class="card-header">
+								<div><%= user.firstName + " " + user.lastName %></div>
+								<a class="btn btn-warning btn-sm" href="/users/<%= user._id %>/edit">Edit user</a>
+								<form id="delete" action="/users/<%= user._id %>?_method=DELETE" method="POST">
+									<button class="btn btn-danger btn-sm">Delete user</button>
+								</form>
+							</div>
+							<div class="card-body">
+								<div>Username: <%= user.username %></div>
+								<p><em>Joined <%= moment(user.createdAt).format("MMM Do YY") %></em></p>
+							</div>
+						</div>
+					</li>
+				<% }) %>
+			</ul>
+		<div class="col-md-2 col-lg-3"></div>
+	</div>
+</div>
+<%- include('../partials/footer') %>

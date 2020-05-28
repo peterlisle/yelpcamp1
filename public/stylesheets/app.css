@@ -1,0 +1,199 @@
+body {
+	padding-bottom: 5%;
+	font-family: "Nunito", sans-serif;
+	font-weight: 100;
+}
+
+nav {
+	position: relative;
+  z-index: 10000;
+}
+
+a.leave-no,
+a.leave-no:link ,
+a.leave-no:visited,
+a.leave-no:focus,
+a.leave-no:hover,
+a.leave-no:active {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: transparent;
+}
+
+.jumbo-top {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#campgrounds-header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("https://i.imgur.com/eNJQX2D.jpg");
+	background-size: 100%;
+	/* height: 35.0em; */
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+
+#campgrounds-header-2 {
+	background-image: url("https://i.imgur.com/LnKpnO9.jpg");
+	background-size: 100%;
+	/* height: 35.0em; */
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+
+.form-page-background {
+	background: #d6eadf;
+}
+
+.profile-title {
+	font-weight: 200;
+}
+
+.campground-cards {
+	margin-bottom: 10px;
+}
+
+.show-page {
+	margin-top: 1.0em;
+}
+
+.form-page {
+	margin-top: 1.0em;
+}
+
+.show-onclick {
+	display: none;
+}
+
+#up-arrow {
+	display: none;
+}
+
+.show-page-info {
+	margin-top: 1.0em;
+}
+
+.lead {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+}
+
+.profile-page {
+	margin-top: 1.0em;
+}
+
+.user-campground-list {
+	margin-top:1.0em;
+	margin-bottom:1.0em;
+}
+
+.profile-body {
+	margin-left: 1.0em;
+}
+
+.fas.fa-quote-left {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 2em;
+	color: rgba(0, 0, 0, 0.1);;
+}
+
+.blurb h2 {
+    color: #345511;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #345511;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+.profile-line {
+	display: inline-block;
+	margin-right: 1.0em;
+}
+
+.footer {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.go-back {
+	margin-top: 10px;
+}
+
+#user-name-link {
+	color: #007bff;
+}
+
+#starting_at {
+	font-size: 1rem;
+	font-weight: 100;
+}
+
+#show_top {
+	margin-bottom: 2.0em;
+}
+
+#delete {
+	display: inline;
+}
+
+#bio-body {
+	margin-bottom: 1.0em;
+}
+
+/* Google Maps */
+#map {
+	margin-top: 2.0em;
+	height: 400px;
+	width: 100%;
+}
+#comment-row {
+	margin-top: 16px;
+}
+
+#comment-button {
+	padding-right:0px;
+}
+
+#below-form {
+	display: inline-block;
+}
+
+#headingGroup span {
+    color:#345511;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1300px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+}
+
+#foot-note {
+	font-weight: 100;
+	font-size: 1rem;
+	color: #345511
+}
+
+#bio-line {
+	margin-bottom: 2.0rem;
+}
