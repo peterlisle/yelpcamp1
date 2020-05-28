@@ -15,6 +15,7 @@ If you're a current Udemy student, feel free to use this for inspiration and cop
 1. _Leave no trace page:_ Repurposed Colt's candy store page from earlier in the course to make a flexbox page for the 7 Leave No Trace principles.
 
 **Here's a visual of the underlying stack for this app:**
+![database](/images/database.png)
 
 
 **Ideas for further improvement**
