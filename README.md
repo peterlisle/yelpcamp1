@@ -24,11 +24,11 @@ Used JQuery to toggle comment fild up and down.
 <br>
 6. Leave no trace page
 Repurposed Colt's candy store page from earlier in the course to make a flexbox page for the 7 Leave No Trace principles.
+<br>
+**Here's a visual of the underlying stack for this app:**
 
-Here's a visual of the underlying stack for this app:
-
-
-Things I wanted to improve to but ran out of time:
+<br>
+**Things I wanted to improve to but ran out of time:**
 1. Code under campground CREATE route is not DRY, due to adding all the amenities to the campground object. I am sure there is an easier way to do this, but I went with a quick, wet solution to save time. 
 <br>
 2. Cover image on profile pages
@@ -36,7 +36,7 @@ Things I wanted to improve to but ran out of time:
 3. Sorting on the index page
 <br>
 4. Map view for index
-
+<br>
 Thanks for reading, and good luck coding!
-
+<br>
 Images are mine, except for a few on the Leave no trace page, which are from upsplash. Feel free to use mine if you like them. 
