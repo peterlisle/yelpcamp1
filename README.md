@@ -4,8 +4,8 @@ As my final project for the Udemy full-stack web developer bootcamp, I walked th
 
 If you're a current Udemy student, feel free to use this for inspiration and copy any part of it. Most of the images are mine, with the excpetion of a few on the LeaveNoTrace page that I snagged from unsplash. 
 
-What's differnt about this one?
-
+<strong>What's differnt about this one?</strong>
+<br>
 1. 
   - async refactor
   - profile pages
