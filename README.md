@@ -10,7 +10,7 @@ If you're a current Udemy student, feel free to use this for inspiration and cop
 1. _Profile pages:_ I added some elements to my user models to make the profiles more interesting, including things like hometown and a picture. You can use cloudinary api for profile pictures, similar to what's outlined in the tutorial. 
 1. _Rotating carousel_ on the index page: If you're interested in this, check out the code on the views/campgrounds/index.ejs file as well as app.css. 
 1. _User management system:_ This is a backend system for the administrators to control users: 
-![image](/Screen Shot 2020-05-28 at 12.01.07 PM.png)
+![image](/images/userlog.png)
 1. _Inline comment creation:_ Used JQuery to toggle comment fild up and down. 
 1. _Leave no trace page:_ Repurposed Colt's candy store page from earlier in the course to make a flexbox page for the 7 Leave No Trace principles.
 
