@@ -1,8 +1,11 @@
-1. Intro statement
-  - Final project from Web Developer Bootcamp
-  - Made some improvements I hope you will enjoy
+<strong>My take on the famous YelpCamp.</strong>
+As my final project for the Udemy full-stack web developer bootcamp, I walked through the guided build of YelpCamp. If you're unfamiliar, seach for yelpcamp on github and you'll find many, but each one is different. This respository holds my take on the YelpCamp theme, with some unique features and  quirks that I hope you'll enjoy. 
 
-2. Notable features: going beyond the template
+If you're a current Udemy student, feel free to use this for inspiration and copy any part of it. Most of the images are mine, with the excpetion of a few on the LeaveNoTrace page that I snagged from unsplash. 
+
+What's differnt about this one?
+
+1. 
   - async refactor
   - profile pages
   - carousel
