@@ -1,4 +1,5 @@
 <strong>My take on the famous YelpCamp.</strong>
+<br>
 As my final project for the Udemy full-stack web developer bootcamp, I walked through the guided build of YelpCamp. If you're unfamiliar, seach for yelpcamp on github and you'll find many, but each one is different. This respository holds my take on the YelpCamp theme, with some unique features and  quirks that I hope you'll enjoy. 
 
 If you're a current Udemy student, feel free to use this for inspiration and copy any part of it. Most of the images are mine, with the excpetion of a few on the LeaveNoTrace page that I snagged from unsplash. 
