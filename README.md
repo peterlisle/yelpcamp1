@@ -18,8 +18,7 @@ If you're interested in this, check out the code on the views/campgrounds/index.
 1. User management system
 This is a backend system for the administrators to control users:
 
-
-1. inline comment creation
+1. Inline comment creation
 Used JQuery to toggle comment fild up and down. 
 
 1. Leave no trace page
@@ -30,13 +29,10 @@ Repurposed Colt's candy store page from earlier in the course to make a flexbox 
 <br>
 **Things I wanted to improve to but ran out of time:**
 * Code under campground CREATE route is not DRY, due to adding all the amenities to the campground object. I am sure there is an easier way to do this, but I went with a quick, wet solution to save time. 
-<br>
 * Cover image on profile pages
-<br>
 * Sorting on the index page
-<br>
 * Map view for index
-<br>
+
 Thanks for reading, and good luck coding!
-<br>
+
 Images are mine, except for a few on the Leave no trace page, which are from upsplash. Feel free to use mine if you like them. 
